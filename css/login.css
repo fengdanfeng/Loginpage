@@ -1,0 +1,95 @@
+html{
+    height: 100%;
+    background: url(../img/front_page.jpg) center center no-repeat;
+    color: #8B8C8A;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    font-size: 2.0rem;
+    min-width:100% !important;
+}
+ .link-group{
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.nav_list1{
+    width: 100%;
+    margin-left: 80px;
+    margin-top: -30px;
+    color: #000000 !important;
+    font-family: "courier";
+    font-weight: bold;
+}
+.nav_list1 ul li{
+    float: left;
+    margin-left:4%;
+    display: inline-block;
+}
+ .link-group .links{
+    color: #8B8C8A;
+}
+ .link-group a,.link-group span{
+    color: #3DBD73;
+}
+.login_contain{
+    width:80%;
+    border-radius: 10px;
+    background-color:rgba(241,241,241,0.8);
+    position: absolute;
+    margin:5% auto;
+    margin-left: 15%;
+}
+ @media screen and (max-width: 400px) {
+             .login_contain {
+                    width: 80%;
+                    margin-left: 10%;
+                    margin-top: 20%;
+                }
+            }
+            @media screen and (min-width: 400px) and (max-width: 800px) {
+                .login_contain{
+                    width: 70%;
+                    margin-left: 15%;
+                }
+            }
+            @media screen and (min-width: 800px) {
+              .login_contain{
+                    width:50%;
+                    margin-left: 25%;
+                }
+            }
+.login_contain h2{
+    padding-left: 40%;
+    font-weight: bolder;
+}
+.input_container{
+    width: 100%;
+    padding:5%;
+}
+.login-submit {
+  width: 100%;
+  margin-top: 10px;
+  height: 47px;
+  font-size: 18px;
+}
+.row1{
+    margin-top: 20px;
+}
+.green{
+    color: green;
+}
+.black{
+    background-color:#282828;
+}
+.list-inline  a{
+    color:#FFFFFF; 
+}
